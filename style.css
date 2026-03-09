@@ -1,0 +1,20 @@
+/* Seleciona TODOS os elementos da página */
+*{
+    padding: 0;              /* Remove o espaçamento interno padrão */
+    margin: 0;               /* Remove o espaçamento externo padrão */
+    box-sizing: border-box;  /* Faz com que padding e borda não aumentem o tamanho do elemento */
+}
+root{
+    --cor-bg: tomato;
+}
+body{
+    height: 100vh;           /* Define a altura do body como 100% da altura da tela */
+    display: flex;           /* Ativa o Flexbox para organizar os elementos */
+    justify-content: center; /* Centraliza os elementos horizontalmente */
+    align-items: center;     /* Centraliza os elementos verticalmente */
+    flex-direction: column; /* Organiza os elementos em coluna (um abaixo do outro) */
+    gap: 12px;               /* Define um espaço de 12px entre os elementos */
+}
+.cor {
+    background-color: var(--cor-bg);
+}
